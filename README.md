@@ -27,8 +27,24 @@ LED　×1
 
 # 使い方
 
-次のようにコマンドを実行する。
+次のようなコマンドを実行する。
 
-$ git clone
+$ sudo rmmod
+
+$ sudo insmod myled.ko
+
+$ chmod 666 /dev/myled0
+
+$ sudo chmod 666 /dev/myled0
+
+$ echo 1 > /dev/myled0
+
+（ブザーがサイレンにのように音を出すのに合わせて、LED1が点滅する）
+
+$ echo 0 > /dev/myled0
+
+（停止）
+
+
 
 
