@@ -28,41 +28,41 @@ LED　×1
 # 使い方
 
 #### インストール
+```bash
+git clone https://github.com/RyosukeIkeji/kadai1.git
 
-$ git clone https://github.com/RyosukeIkeji/kadai1.git
+cd kadai1
 
-$ cd kadai1
+make
 
-$ make
+sudo insmod myled.ko
 
-$ sudo insmod myled.ko
-
-$ sudo chmod 666 /dev/myled0
-
+sudo chmod 666 /dev/myled0
+```
 #### アンインストール
+```bash
+sudo rmmod myled
 
-$ sudo rmmod myled
-
-$make clean
-
+make clean
+```
 #### 次のようなコマンドで実行する。
+```bash
+sudo rmmod
 
-$ sudo rmmod
+sudo insmod myled.ko
 
-$ sudo insmod myled.ko
+chmod 666 /dev/myled0
 
-$ chmod 666 /dev/myled0
+sudo chmod 666 /dev/myled0
 
-$ sudo chmod 666 /dev/myled0
-
-$ echo 1 > /dev/myled0
+echo 1 > /dev/myled0
 
 （ブザーが5回サイレンのように音を出すのに合わせて、LED1が5回点滅する）
 
-$ echo 0 > /dev/myled0
+echo 0 > /dev/myled0
 
 （停止）
-
+```
 # Clip
 
 https://youtu.be/A7aHX1fUDuY
