@@ -29,14 +29,21 @@ LED　×1
 
 #### install
 
-$ git clone 
+$ git clone https://github.com/RyosukeIkeji/kadai1.git
 
+$ cd kadai1
 
+$ make
 
+$ sudo insmod myled.ko
 
+$ sudo chmod 666 /dev/myled0
 
+#### uninstall
 
+$ sudo rmmod myled
 
+$make clean
 
 #### 次のようなコマンドを実行する。
 
