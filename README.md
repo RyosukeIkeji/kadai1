@@ -27,6 +27,17 @@ LED　×1
 
 # 使い方
 
+#### install
+
+$ git clone 
+
+
+
+
+
+
+
+
 #### 次のようなコマンドを実行する。
 
 $ sudo rmmod
