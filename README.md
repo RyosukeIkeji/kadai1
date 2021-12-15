@@ -67,6 +67,12 @@ $ echo 0 > /dev/myled0
 
 https://youtu.be/A7aHX1fUDuY
 
+# Author
+
+Ryuichi Ueda 
+Itsuki Ueno 
+Ryosuke Ikeji
+
 
 # License
 
