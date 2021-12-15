@@ -47,7 +47,7 @@ $ echo 0 > /dev/myled0
 
 # License
 
-COPYING
+https://github.com/RyosukeIkeji/kadai1/blob/b0cea3c5ca9e54edc36f4d4ca4c267676700e539/COPYING
 
 
 
