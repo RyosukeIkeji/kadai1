@@ -47,8 +47,7 @@ $ echo 0 > /dev/myled0
 
 # License
 
-GNU General Public License v3.0
-
+COPYING
 
 
 
