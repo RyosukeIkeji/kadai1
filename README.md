@@ -25,4 +25,9 @@ LED　×1
 # 配線図
 ![image](https://user-images.githubusercontent.com/95861309/146193888-ae945a6c-af1d-40bd-85cd-33030c5dcf5a.png)
 
+# 使い方
+
+次のようにコマンドを実行する。
+$ git clone
+
 
