@@ -45,6 +45,11 @@ $ echo 0 > /dev/myled0
 
 （停止）
 
+# Clip
+
+https://youtu.be/A7aHX1fUDuY
+
+
 # License
 
 GNU General Public License v3.0
