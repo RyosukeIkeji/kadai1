@@ -45,6 +45,9 @@ $ echo 0 > /dev/myled0
 
 （停止）
 
+# License
+
+GNU General Public License v3.0
 
 
 
