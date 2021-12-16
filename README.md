@@ -83,4 +83,21 @@ GNU General Public License v3.0
 https://github.com/RyosukeIkeji/kadai1/blob/b0cea3c5ca9e54edc36f4d4ca4c267676700e539/COPYING
 
 
+#  README参考
+
+https://github.com/yuzukiimai/robosys1/blob/master/README.md
+
+こちらのREADME.mdを参考に、自身のREADME.mdを書かさせていただきました。ありがとうございました。
+
+# myled.c参考 
+
+https://github.com/itsukiueno/kadai1
+
+こちらのmyled.cを参考に、上野樹さんご本人より<linux/delay.h>の使い方を教えていただきました。
+ありがとうございました。
+
+
+
+
+
 
