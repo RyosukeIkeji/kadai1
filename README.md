@@ -1,4 +1,4 @@
-# LED_Device_driver
+# LEDを光らせるデバイスドライバー
 
 ロボットシステム学の第7，8回の授業において作成したデバイスドライバーを改良したものになります。
 
@@ -25,9 +25,9 @@ LED　×1
 # 配線図
 ![image](https://user-images.githubusercontent.com/95861309/146193888-ae945a6c-af1d-40bd-85cd-33030c5dcf5a.png)
 
-# 使い方
+# how to use
 
-#### インストール
+#### install
 ```bash
 $ git clone https://github.com/RyosukeIkeji/kadai1.git
 
@@ -39,7 +39,7 @@ $ sudo insmod myled.ko
 
 $ sudo chmod 666 /dev/myled0
 ```
-#### アンインストール
+#### uninstall
 ```bash
 $ sudo rmmod myled
 
