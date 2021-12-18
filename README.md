@@ -23,7 +23,9 @@ LED　×1
 ジャンパー線 ×4
 
 # 配線図
-![image](https://user-images.githubusercontent.com/95861309/146193888-ae945a6c-af1d-40bd-85cd-33030c5dcf5a.png)
+
+![S__76259332](https://user-images.githubusercontent.com/95861309/146644332-5ac3030c-0af5-49c4-9a3a-f2b1eec3edff.jpg)
+
 
 # how to use
 
