@@ -8,7 +8,7 @@ Raspberry Pi 3 Model B
 
 OS:ubuntu 20.04 server
 
-# 使用したもの
+# 今回使用したもの
 
 Raspberry PI 3 Model B
 
@@ -45,9 +45,9 @@ $ sudo rmmod myled
 
 $ make clean
 ```
-#### 次のようなコマンドで実行する。
+#### run
 ```bash
-$ sudo rmmod
+$ sudo rmmod myled
 
 $ sudo insmod myled.ko
 
@@ -57,7 +57,7 @@ $ sudo chmod 666 /dev/myled0
 
 $ echo 1 > /dev/myled0
 
-（ブザーが5回サイレンのように音を出すのに合わせて、LED1が5回点滅する）
+（ブザーが鳴りだし、LEDも光る）
 
 $ echo 0 > /dev/myled0
 
@@ -65,13 +65,11 @@ $ echo 0 > /dev/myled0
 ```
 # Clip
 
-https://youtu.be/A7aHX1fUDuY
+
 
 # Author
 
-Ryuichi Ueda 
-
-Itsuki Ueno 
+Ryuichi Ueda  
 
 Ryosuke Ikeji
 
@@ -83,18 +81,8 @@ GNU General Public License v3.0
 https://github.com/RyosukeIkeji/kadai1/blob/b0cea3c5ca9e54edc36f4d4ca4c267676700e539/COPYING
 
 
-#  README参考
 
-https://github.com/yuzukiimai/robosys1/blob/master/README.md
 
-こちらのREADME.mdを参考に、自身のREADME.mdを書かさせていただきました。ありがとうございました。
-
-# myled.c参考 
-
-https://github.com/itsukiueno/kadai1
-
-こちらのmyled.cを参考に、上野樹さんご本人より<linux/delay.h>の使い方を教えていただきました。
-ありがとうございました。
 
 
 
