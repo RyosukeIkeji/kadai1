@@ -1,5 +1,5 @@
 //SPDX-License-Identifer: GPL-3.0
-// *Copyright (c) 2021 Ryuichi Ueda & Itsuki Ueno & Ryosuke Ikeji. All right reserved.
+// *Copyright (c) 2021 Ryuichi Ueda & Ryosuke Ikeji. All right reserved.
 
 
 #include <linux/module.h>
